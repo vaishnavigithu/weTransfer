@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeTransfer-send a Larger Files</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="shortCut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwtQ7xrvIq1CqDH4MtTxTHv7dA31mrGxWePg&usqp=CAU">
+
+</head>
+<body>
+    <section claass="section-1" id="navBar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#" style="font-weight: bolder;font-size: 30px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwtQ7xrvIq1CqDH4MtTxTHv7dA31mrGxWePg&usqp=CAU" class="card-img-top" alt="..." style="width: 50px;height: 50px;border-radius: 50%;">we</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+    
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <li class="nav-item active">
+                    <button class="nav-link" href="#" style="background-color: white;color: black;" onclick="goToPricingPage()">Pricing </button>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <button class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="background-color: white;color: black;">
+                      Features
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#" style="background-color: white;color: black;">All features</a>
+                      <a class="dropdown-item" href="#">For file sharing</a>
+                      <a class="dropdown-item" href="#">For collaboration</a>
+                      <a class="dropdown-item" href="#">For data security</a>
+                      <a class="dropdown-item" href="#">For branding</a>
+                      <a class="dropdown-item" href="#">For feedback</a>
+                    
+                    </div>
+                  </li>
+            
+                  <!-- <li class="nav-item">
+                    <button class="nav-link" href="#"style="background-color: white;color: black;" onclick="goToCompanyPage()">Company</button>
+                  </li> -->
+                  <li class="nav-item">
+                    <button class="nav-link" aria-current="page" href="#" 
+                    id="signup-link" onclick="goToCompanyPage()" style="background-color: white;color: black;">Company</button>
+                  </li>
+                  <li class="nav-item">
+                    <button class="nav-link" href="#"style="background-color: white;color: black;">Help</button>
+                  </li>
+                  <li class="nav-item">
+                    <button class="nav-link" aria-current="page"  href="#"
+                    id="login-link" onclick="goToLoginPage()" style="background-color: white;color: black;">Login</button>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <button class="nav-link" aria-current="page"  href="#"
+                    id="login-link" onclick="goToLoginPage()" style="background-color: white;color: black;">Login</button>
+                  </li> -->
+                  <li class="nav-item">
+                    <button class="nav-link" aria-current="page" href="#" 
+                    id="signup-link" onclick="goToSignUpPage()" style="background-color: white;color: black;">Sign Up</button>
+                  </li>
+            
+              </form>
+            </div>
+          </nav>
+
+    </section>
+    <!--------Landing Page----------->
+    <div class="section-2" id="pricingPage">
+      <div class="card" style="width: 18rem;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwtQ7xrvIq1CqDH4MtTxTHv7dA31mrGxWePg&usqp=CAU" class="card-img-top" alt="..." style="width: 50px;height: 50px;border-radius: 50%;margin-top: 50px;margin-left: 20px;">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 40px;">You're<br> <b>almost</b> there</h5>
+            <p class="card-text"style="margin-top:30px">To continue, please agree to our Trems and conditions.</p>
+            <hr>
+            <a href="#" class="btn btn-primary"style="margin-top:30px;align-items:center;border-radius:30px;">I Agree</a>
+          </div>
+      </div>
+
+      <div class="para">
+          <p>Welcome to WeTransfer</p>
+          <h1>Transfer ideas.</h1>
+          <h1>Transform the <br> world.</h1>
+          <p style="font-weight: bold;font-size: 20px;">By accepting our cookies, you directly help us to expand our pledge to the planet. This year alone, <br>WeTransfer has committed to planting over 175,000 trees, and we’re just getting started. You ll have a <br>positive impact by simply experiencing our award-winning ads. </p>
+          <p>Our website uses cookies to improve performance, service, and to better understand your needs. By accepting our <br>third-party cookies, we and our partners are able to offer you more relevant advertising on and outside of our website(s) and apps.</p>
+
+          <a href="#" class="btn btn-primary"style="margin-top:30px;align-items:center;">I Accept</a>
+          <a href="#" class="btn btn-outline-primary"style="margin-top:30px;align-items:center;margin-left:20px;color:white">Manage Cookies</a>
+          <a href="#" class="link-primary"style="color:white;margin-left: 20px;">No thanks</a>
+          
+      </div>
+
+    </div>
+    <!------------Login-->
+    <div id="login-form">
+  
+      <form class="row g-3">
+        <h1 class="display-6">Login Form</h1>
+        
+        <div class="col-md-6">
+          <label for="login-email" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="login-email" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please provide valid Email.
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="col-md-6">
+          <label for="login-password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="login-password" required>
+          <div class="invalid-feedback">
+            Please provide a valid Password.
+          </div>
+        </div>
+      
+        <div class="col-12">
+          <button class="btn btn-dark" type="button" onclick="login()">Login</button>
+          
+        </div>
+      </form>
+    </div>
+  <!--Sign Up-->
+  <div id="signup-form">
+    <form class="row g-3" id="signup-form-id">
+      <h1 class="display-5">Sign Up Form</h1>
+      <div class="col-md-6">
+        <label for="first-name" class="form-label">First name</label>
+        <input type="text" class="form-control" id="first-name" required autocomplete="off" onkeypress="validate()">
+        <div class="valid-feedback" id="first-name-valid">
+          Looks good
+        </div>
+        <div class="invalid-feedback" id="first-name-invalid">
+          Plase enter a valid First Name.
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="Last-name" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="Last-name" value="" required autocomplete="off" onkeypress="validate()">
+        <div class="valid-feedback" id="last-name-valid" >
+          Looks good
+        </div>
+        <div class="invalid-feedback" id="last-name-invalid">
+          Plase enter a valid Last Name.
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="Email" class="form-label">Email</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+          <input type="text" class="form-control" id="Email" aria-describedby="inputGroupPrepend" required autocomplete="off" onkeypress="validate()">
+          <div class="valid-feedback" id="email-valid">
+            Looks good
+          </div>
+          <div class="invalid-feedback" id="email-invalid">
+            Please provide valid Email.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="Phone-number" class="form-label">Phone Number</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">+91</span>
+          <input type="number" class="form-control" id="Phone-number" aria-describedby="inputGroupPrepend" required autocomplete="off">
+          <div class="valid-feedback" id="phone-number-valid">
+            Looks good
+          </div>
+          <div class="invalid-feedback" id="phone-number-invalid">
+            Plase enter a valid Phone Number.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="Password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="Password" required autocomplete="off">
+        <div class="valid-feedback" id="password-valid">
+          Looks good
+        </div>
+        <div class="invalid-feedback"  id="password-invalid">
+          Plase enter a valid Password.
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="Confirm-password" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" id="Confirm-password" required autocomplete="off">
+        <div class="valid-feedback"  id="confirm-password-valid">
+          Password and Confirm-password matched.
+        </div>
+        <div class="invalid-feedback" id="confirm-password-invalid">
+          Password and Confirm-password don't match.
+        </div>
+      </div>
+    
+      <div class="col-12" style="text-align:center">
+        <button class="btn btn-dark" type="button" onclick="signup()">Sign Up</button>
+      </div>
+    </form>
+  </div>
+<!-------------Company ---------->
+      <div id="company">
+        <nav class="navbar navbar-expand-lg navbar-black bg-black" style="color:white">
+          <a class="navbar-brand" href="#" style="font-weight: bolder;font-size: 30px;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwtQ7xrvIq1CqDH4MtTxTHv7dA31mrGxWePg&usqp=CAU" class="card-img-top" alt="..." style="width: 50px;height: 50px;border-radius: 50%;">we</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Features
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#" style="background-color: white;color: black;">All features</a>
+                      <a class="dropdown-item" href="#">For file sharing</a>
+                      <a class="dropdown-item" href="#">For collaboration</a>
+                      <a class="dropdown-item" href="#">For data security</a>
+                      <a class="dropdown-item" href="#">For branding</a>
+                      <a class="dropdown-item" href="#">For feedback</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Products <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Advertising
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#" style="background-color: white;color: black;">All features</a>
+                      <a class="dropdown-item" href="#">About</a>
+                      <a class="dropdown-item" href="#">Responsive business</a>
+                      <a class="dropdown-item" href="#">Add policies</a>
+                      <a class="dropdown-item" href="#">get quotes</a>
+                      
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page"  href="#"
+                id="login-link" onclick="goToLoginPage()" style="background-color: white;color: black;">SignUp</a>
+              </li>
+            </form>
+          </div>
+        </nav>
+        <p style="font-size: 70px;color:white;text-align: center;margin-top: 80px;">We deal in big ideas</p>
+
+        <p style="font-size: 20px;color: white;margin-top: 40px;text-align: center;">WeTransfer was founded in 2009 as the simples<br>t way to send big files around the world. Now we’re a whole suite of <br>productivity tools that take care of other tricky <br>bits of the creative process—doing our bit for the planet along the way.</p>
+        
+        <p style="font-size: 20px;color: white;margin-top: 40px;text-align: center;">Every month WeTransfer helps millions of people find inspiration, mold ideas,<br> and deliver (stunning) creative work. But the fun doesn’t stop there.</p>
+
+        <p style="font-size: 20px;color: white;margin-top: 40px;text-align: center;">Good ideas deserve good company, and as a certified B Corporation<br> and Climate Neutral service, we strive to use our business as a force for good. From campaigning<br> for issues like climate change and mental health to donating 30% of our advertising space to support artists <br>we admire and causes we care about, we’re committed to a better internet and a better world for everyone.<br> (We guess that’s why Fast Company calls us one of the ten most innovative social good companies.)</p>
+
+        <!-- <div class="card" style="width: 18rem;margin-left: 50px;margin-top: 80px;">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRymq5YGxE5rQybAmtJ3ixHF0VeE-CU7Fbrcw&usqp=CAU" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div> -->
+        <div class="row" style="margin-left: 80px;margin-top: 40px;">
+          
+          <div class="col-sm-3" style="margin-left: 100px;height:400px">
+            <div class="card">
+              <div class="card-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtuq2lPB0t8DJjCK8lV3WJJojqhszl3oWhyg&usqp=CAU" class="card-img-top" alt="..."><br>
+                <a href="#" class="btn btn-primary" style="margin-top: 10px;"></a>>Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3" style="margin-left: 50px;height:400px">
+            <div class="card">
+              <div class="card-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtuq2lPB0t8DJjCK8lV3WJJojqhszl3oWhyg&usqp=CAU" class="card-img-top" alt="..."><br>
+                <a href="#" class="btn btn-primary" style="margin-top: 10px;"></a>>Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-left: 80px;margin-top: 20px;">
+          
+          <div class="col-sm-3" style="margin-left: 100px;height:400px">
+            <div class="card">
+              <div class="card-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTETTvkl2iY1EAxYCM8uF_sZOE4njxL5LOSig&usqp=CAU" class="card-img-top" alt="..."><br>
+                <a href="#" class="btn btn-primary" style="margin-top: 10px;"></a>>Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3" style="margin-left: 50px;height:400px">
+            <div class="card">
+              <div class="card-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFpqbsN6RMkHxq_1swWFeRl8TsWnZxUh-33A&usqp=CAU" class="card-img-top" alt="..."><br>
+                <a href="#" class="btn btn-primary" style="margin-top: 10px;"></a>>Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1 style="font-size: 100px;font-weight: bolder;text-align: center;color: white;margin-top: 20px;">WEPRESENT</h1>
+
+        <p style="font-size: 20px;color: white;margin-top: 40px;text-align: center;">Discover the best art, photography, music, and more<br> from every corner of the globe on our digital arts and editorial platform.</p>
+
+        <section>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+              
+                <div class="carousel-item">
+                  <img src="https://img.freepik.com/free-psd/horizontal-banner-template-big-sale-with-woman-shopping-bags_23-2148786755.jpg?w=2000" class="d-block w-100" alt="..." style="width:100%;margin-top: 15px;height:300px;border: 5px solid blue;">
+                </div>
+                <div class="carousel-item active">
+                  <img src="https://img.freepik.com/free-vector/realistic-shopping-online-landing-page_52683-37635.jpg?w=2000" alt="..." style="width:100%;margin-top: 15px;height:300px;border: 5px solid blue;">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://img.freepik.com/free-psd/landing-page-online-fashion-sale_23-2148585401.jpg?w=2000" class="d-block w-100" alt="..." style="width:100%;margin-top: 15px;height:300px;border: 5px solid blue;">>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </button>
+            </div>
+       </section>
+       <form style="text-align: center;margin-left: 100px;">
+        <div class="form-group row" style="width: 500px;color:white">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">First Name</label>
+          <div class="col-sm-10">
+            <input type="fisrtname" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="form-group row" style="width: 500px;color:white">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Last Name</label>
+          <div class="col-sm-10">
+            <input type="lastname" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+        <div class="form-group row" style="width: 500px;color:white">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+      
+        <div class="form-group row" style="width: 500px;color:white">
+          <div class="col-sm-10 offset-sm-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Example checkbox
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </div>
+      </form>
+
+      </div>
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
